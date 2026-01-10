@@ -72,6 +72,7 @@ struct cg_server {
 
 	struct wlr_xcursor_manager *xcursor_manager;
 
+	bool clone_mode;
 	bool xdg_decoration;
 	bool allow_vt_switch;
 	bool enable_xwayland;
